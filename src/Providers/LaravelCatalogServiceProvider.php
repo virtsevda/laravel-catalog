@@ -2,7 +2,7 @@
 namespace Virtsevda\LaravelCatalog\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Yuraplohov\LaravelExample\Console\Commands\ExampleCommand;
+use Virtsevda\LaravelCatalog\Console\Commands\CategoriesImportCommand;
 
 class LaravelCatalogServiceProvider extends ServiceProvider
 {
