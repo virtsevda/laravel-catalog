@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group([ "middleware"=>['auth'], 'as'=>'api.'], function () {
+Route::group([ 'as'=>'api.'], function () {
     Route::apiResources([
         'brands'=>BrandController::class,
         'categories'=>CategoryController::class,

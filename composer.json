@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Virtsevda\\LaravelCatalog\\Providers\\EloquentFilterServiceProvider"
+            "Virtsevda\\LaravelCatalog\\Providers\\LaravelCatalogServiceProvider"
           ]
         }
       }
